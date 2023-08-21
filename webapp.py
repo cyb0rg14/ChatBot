@@ -5,7 +5,8 @@ import streamlit as st
 st.set_page_config(
     page_title="Llama 2 Chatbot",
     page_icon="🦙",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    layout="wide"
 )
 
 # Sidebar Configuration
